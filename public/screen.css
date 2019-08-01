@@ -7,35 +7,126 @@ html {
 }
 
 body {
-  margin-right: 15rem;
-  margin-left: 15rem;
-  min-height: 100%;
-  padding: 1rem;
+  margin-right: 18rem;
+  margin-left: 18rem;
+  padding-top: 1rem;
 }
 
-section {text-align: center;}
+div {
+  border-style: solid;
+  border-color: rgb(81, 190, 218);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rm;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  height: 90%;
+  width: 60%;
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
 
-.no-bullets {list-style:none;}
+img {
+  width: 10.5rem;
+}
 
-.dark-teal-BG {background-color: rgb(2, 123, 153);}
+ul {
+  text-align: left;
+}
 
-.teal-BG {background-color: rgb(81, 190, 218); }
+h2 {
+  text-align: left;
+  font-family: verdana;
+  font-weight: bolder;
+}
 
-.light-teal-BG {background-color: rgb(184, 233, 245);}
+p {
+  text-align: left;
+  font-family: verdana;
+  margin-right: 4rem;
+}
 
-.beige-BG {background-color: rgb(226, 217, 187);}
+h3 {
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 16px;
+}
 
-.header-color {color: rgb(1, 71, 71);
-text-align: center;
-font-size:40px}
+section {
+  text-align: center;
+}
 
-.white-text {color: whitesmoke;}
+.no-bullets {
+  list-style: none;
+}
 
-.underline {text-decoration: underline;}
+.dark-teal-BG {
+  background-color: rgb(2, 123, 153);
+}
 
-.menu {display: flex; text-align: center;}
+.teal-BG {
+  background-color: rgb(81, 190, 218);
+}
 
-.menu-item {list-style: none;
-color: whitesmoke;
-text-decoration: none;
+.light-teal-BG {
+  background-color: rgb(211, 244, 248);
+}
+
+.beige-BG {
+  background-color: rgb(226, 217, 187);
+}
+
+.black-BG {
+  background-color: black;
+}
+
+.header {
+  color: rgb(1, 71, 71);
+  text-align: center;
+  font-size: 50px;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.header-color {
+  color: rgb(2, 92, 92);
+  margin-top: 0.25rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
+
+.white-text {
+  color: whitesmoke;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.menu {
+  display: flex;
+  background-color: rgb(81, 190, 218);
+  justify-content: center;
+}
+
+.menu-item {
+  list-style: none;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.menu-footer {
+  display: flex;
+  background-color: rgb(226, 217, 187);
+  justify-content: center;
+}
+
+.menu-item-foot {
+  list-style: none;
+  text-decoration: underline;
+  padding: 0.75rem;
+}
+
+.whatever {
+  display: flex;
 }
